@@ -1,0 +1,4 @@
+# Updated 20/08/14 9:33 AM by Minecraft 1.7.4
+# victim name | ban date | banned by | banned until | reason
+
+list|2013-12-17 07:48:24 -0500|Mrrussiandonkey|Forever|Banned by an operator.

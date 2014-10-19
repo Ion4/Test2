@@ -1,0 +1,190 @@
+---- Minecraft Profiler Results ----
+// You should add flames to things, it makes them go faster!
+
+Time span: 1741187 ms
+Tick span: 34826 ticks
+// This is approximately 20.00 ticks per second. It should be 20 ticks per second
+
+--- BEGIN PROFILE DUMP ---
+
+[00] levels - 98.46%/98.46%
+[01]  server world new - 99.79%/98.25%
+[02]   tick - 98.41%/96.69%
+[03]    entities - 68.14%/65.88%
+[04]     regular - 99.57%/65.60%
+[05]      tick - 94.20%/61.79%
+[06]       ai - 34.31%/21.20%
+[07]        newAi - 94.61%/20.06%
+[08]         goalSelector - 34.18%/6.86%
+[09]          unspecified - 77.98%/5.35%
+[09]          canUse - 10.80%/0.74%
+[09]          goalStart - 6.85%/0.47%
+[10]           unspecified - 50.87%/0.24%
+[10]           tt - 43.79%/0.21%
+[11]            pathfind - 91.56%/0.19%
+[11]            unspecified - 8.44%/0.02%
+[10]           ts - 4.50%/0.02%
+[10]           sv - 0.72%/0.00%
+[11]            pathfind - 99.29%/0.00%
+[11]            unspecified - 0.71%/0.00%
+[10]           sw - 0.09%/0.00%
+[10]           tw - 0.02%/0.00%
+[10]           su - 0.01%/0.00%
+[10]           th - 0.00%/0.00%
+[10]           sy - 0.00%/0.00%
+[09]          goalTick - 3.80%/0.26%
+[10]           unspecified - 99.85%/0.26%
+[10]           pathfind - 0.12%/0.00%
+[10]           checkLight - 0.02%/0.00%
+[11]            unspecified - 81.09%/0.00%
+[11]            getBrightness - 16.62%/0.00%
+[11]            checkedPosition < toCheckCount - 2.29%/0.00%
+[09]          canContinue - 0.47%/0.03%
+[09]          pathfind - 0.11%/0.01%
+[08]         unspecified - 24.61%/4.94%
+[08]         controls - 18.92%/3.80%
+[09]          unspecified - 73.16%/2.78%
+[09]          look - 17.21%/0.65%
+[09]          move - 5.52%/0.21%
+[09]          jump - 4.11%/0.16%
+[08]         targetSelector - 16.97%/3.40%
+[09]          unspecified - 89.87%/3.06%
+[09]          goalStart - 4.13%/0.14%
+[10]           unspecified - 100.00%/0.14%
+[10]           ui - 0.00%/0.00%
+[09]          goalTick - 4.06%/0.14%
+[09]          canUse - 1.63%/0.06%
+[09]          canSee - 0.29%/0.01%
+[09]          canContinue - 0.02%/0.00%
+[08]         navigation - 1.73%/0.35%
+[08]         checkDespawn - 1.28%/0.26%
+[08]         sensing - 1.25%/0.25%
+[08]         mob tick - 1.06%/0.21%
+[07]        unspecified - 4.57%/0.97%
+[07]        oldAi - 0.81%/0.17%
+[08]         unspecified - 57.76%/0.10%
+[08]         ai - 26.80%/0.05%
+[08]         stroll - 14.50%/0.02%
+[09]          pathfind - 97.25%/0.02%
+[09]          unspecified - 2.75%/0.00%
+[08]         followpath - 0.94%/0.00%
+[06]       unspecified - 31.50%/19.46%
+[06]       travel - 18.18%/11.23%
+[07]        move - 39.81%/4.47%
+[07]        rest - 32.02%/3.60%
+[07]        unspecified - 28.17%/3.16%
+[06]       entityBaseTick - 7.32%/4.52%
+[07]        unspecified - 96.66%/4.37%
+[07]        portal - 3.34%/0.15%
+[06]       livingEntityBaseTick - 4.55%/2.81%
+[06]       push - 1.29%/0.80%
+[06]       headTurn - 0.60%/0.37%
+[06]       chunkCheck - 0.56%/0.35%
+[06]       mobBaseTick - 0.44%/0.27%
+[06]       move - 0.40%/0.25%
+[06]       looting - 0.27%/0.17%
+[06]       rangeChecks - 0.22%/0.14%
+[06]       jump - 0.21%/0.13%
+[06]       rest - 0.15%/0.09%
+[06]       portal - 0.00%/0.00%
+[06]       checkLight - 0.00%/0.00%
+[07]        unspecified - 52.97%/0.00%
+[07]        getBrightness - 23.63%/0.00%
+[07]        checkedPosition < toCheckCount - 23.40%/0.00%
+[06]       checkedPosition < toCheckCount - 0.00%/0.00%
+[06]       getBrightness - 0.00%/0.00%
+[05]      unspecified - 5.09%/3.34%
+[05]      remove - 0.70%/0.46%
+[04]     blockEntities - 0.28%/0.19%
+[04]     unspecified - 0.12%/0.08%
+[04]     remove - 0.03%/0.02%
+[04]     global - 0.00%/0.00%
+[04]     pendingBlockEntities - 0.00%/0.00%
+[03]    tickBlocks - 27.61%/26.70%
+[04]     unspecified - 51.48%/13.74%
+[04]     tickBlocks - 16.50%/4.41%
+[05]      unspecified - 99.87%/4.40%
+[05]      checkLight - 0.06%/0.00%
+[06]       checkedPosition < toCheckCount - 51.35%/0.00%
+[06]       unspecified - 28.11%/0.00%
+[06]       getBrightness - 20.53%/0.00%
+[05]      checkedPosition < toCheckCount - 0.04%/0.00%
+[05]      getBrightness - 0.03%/0.00%
+[04]     tickChunk - 10.16%/2.71%
+[05]      unspecified - 79.84%/2.16%
+[05]      getBrightness - 15.34%/0.42%
+[05]      checkedPosition < toCheckCount - 2.97%/0.08%
+[05]      recheckGaps - 1.85%/0.05%
+[06]       unspecified - 73.16%/0.04%
+[06]       getBrightness - 21.98%/0.01%
+[06]       checkedPosition < toCheckCount - 4.86%/0.00%
+[04]     getChunk - 6.80%/1.81%
+[04]     buildList - 4.51%/1.20%
+[04]     moodSound - 2.90%/0.77%
+[04]     playerCheckLight - 2.68%/0.71%
+[05]      unspecified - 74.93%/0.54%
+[05]      getBrightness - 22.83%/0.16%
+[05]      checkedPosition < toCheckCount - 2.24%/0.02%
+[04]     iceandsnow - 2.06%/0.55%
+[05]      unspecified - 100.00%/0.55%
+[05]      checkLight - 0.00%/0.00%
+[06]       unspecified - 64.41%/0.00%
+[06]       getBrightness - 34.45%/0.00%
+[06]       checkedPosition < toCheckCount - 1.14%/0.00%
+[04]     checkLight - 1.49%/0.40%
+[04]     thunder - 1.44%/0.38%
+[03]    mobSpawner - 2.48%/2.40%
+[03]    tickPending - 0.59%/0.57%
+[04]     ticking - 47.59%/0.27%
+[05]      checkLight - 53.69%/0.15%
+[06]       checkedPosition < toCheckCount - 74.09%/0.11%
+[06]       getBrightness - 24.83%/0.04%
+[06]       unspecified - 1.09%/0.00%
+[05]      unspecified - 46.31%/0.13%
+[04]     unspecified - 40.52%/0.23%
+[04]     cleaning - 11.89%/0.07%
+[03]    chunkSource - 0.48%/0.47%
+[03]    unspecified - 0.46%/0.45%
+[03]    village - 0.15%/0.14%
+[03]    chunkMap - 0.05%/0.05%
+[03]    portalForcer - 0.04%/0.04%
+[02]   tracker - 1.47%/1.44%
+[02]   unspecified - 0.11%/0.10%
+[02]   timeSync - 0.01%/0.01%
+[02]   pools - 0.01%/0.01%
+[01]  unspecified - 0.21%/0.21%
+[00] connection - 1.17%/1.17%
+[01]  unspecified - 84.71%/0.99%
+[01]  travel - 6.34%/0.07%
+[02]   unspecified - 60.37%/0.04%
+[02]   move - 22.19%/0.02%
+[02]   rest - 17.44%/0.01%
+[01]  entityBaseTick - 1.72%/0.02%
+[02]   unspecified - 86.24%/0.02%
+[02]   portal - 13.76%/0.00%
+[01]  checkLight - 1.55%/0.02%
+[02]   unspecified - 91.97%/0.02%
+[02]   checkedPosition < toCheckCount - 4.97%/0.00%
+[02]   getBrightness - 3.06%/0.00%
+[01]  ai - 1.33%/0.02%
+[02]   unspecified - 67.62%/0.01%
+[02]   oldAi - 32.38%/0.01%
+[01]  livingEntityBaseTick - 1.21%/0.01%
+[01]  headTurn - 0.92%/0.01%
+[01]  rest - 0.84%/0.01%
+[01]  move - 0.75%/0.01%
+[01]  push - 0.26%/0.00%
+[01]  keepAlive - 0.25%/0.00%
+[01]  rangeChecks - 0.04%/0.00%
+[01]  jump - 0.03%/0.00%
+[01]  playerTick - 0.03%/0.00%
+[01]  checkedPosition < toCheckCount - 0.00%/0.00%
+[01]  getBrightness - 0.00%/0.00%
+[00] save - 0.20%/0.20%
+[00] unspecified - 0.10%/0.10%
+[00] tickables - 0.05%/0.05%
+[00] snooper - 0.01%/0.01%
+[00] tallying - 0.01%/0.01%
+[00] players - 0.00%/0.00%
+--- END PROFILE DUMP ---
+
